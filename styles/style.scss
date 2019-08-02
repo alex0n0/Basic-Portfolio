@@ -159,6 +159,11 @@ main {
             background-color: white;
             padding: 30px 30px;
             border: 1px solid rgb(225, 225, 225);
+            &::after {
+                content: '';
+                clear: both;
+                display: block;
+            }
         }
         h2 {
             color: $backgorund-teal;
@@ -177,6 +182,7 @@ main {
         }
     }
     .container.page-index {
+
         .image {
             width: 100%;
             float: left;
@@ -199,6 +205,7 @@ main {
             }
         }
     }
+
     .container.page-portfolio { 
         & .wrapper {
             margin: 0px -10px;

@@ -186,6 +186,12 @@ main .container section {
   border: 1px solid #e1e1e1;
 }
 
+main .container section::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
 main .container h2 {
   color: #d30b0b;
   margin-bottom: 40px;
